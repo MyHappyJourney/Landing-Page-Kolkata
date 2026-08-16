@@ -98,8 +98,8 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg, onViewDetails, on
 
           <div className="flex items-center justify-center gap-1.5 mb-3 py-2 px-3 bg-amber-50 rounded-xl border border-amber-200 text-center">
             <Sparkles className="w-3.5 h-3.5 text-amber-600 shrink-0 animate-pulse" />
-            <span className="text-xs font-black text-amber-950 uppercase tracking-wide">
-              Special Price for Bengali Travellers
+            <span className="text-xs sm:text-sm font-black text-amber-950 tracking-wide">
+              বাঙালি পর্যটকদের জন্য বিশেষ ছাড়
             </span>
           </div>
 

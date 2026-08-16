@@ -233,7 +233,7 @@ export const REVIEWS: Review[] = [
     name: "Sourav & Debjani Banerjee",
     location: "Salt Lake, Kolkata",
     rating: 5,
-    comment: "Booked our 6N/7D Kerala trip from Kolkata. MyHappyJourney handled everything seamlessly from flight timings to Cochin pickup. Dedicated AC cab was spotless and Bengali phone support made it stress-free for our elderly parents!",
+    comment: "কলকাতা থেকে আমাদের ৬ রাত ৭ দিনের কেরল ট্রিপ বুক করেছিলাম। ফ্লাইট টাইমিং থেকে কোচিন পিক-আপ—সবকিছু দারুণভাবে পরিচালনা করেছে MyHappyJourney। এসি গাড়ি ও ড্রাইভার খুব ভালো ছিল এবং বাংলায় ফোন সাপোর্ট থাকায় বাবা-মায়ের কোনো অসুবিধাই হয়নি!",
     date: "2 weeks ago"
   },
   {
@@ -241,7 +241,7 @@ export const REVIEWS: Review[] = [
     name: "Anirban Mukherjee",
     location: "Ballygunge, Kolkata",
     rating: 5,
-    comment: "The Alleppey houseboat was unforgettable! They specially arranged delicious fresh fish fry & Bengali-friendly meals on board. Munnar tea gardens and Kovalam sunsets were breathtaking. 10/10 service!",
+    comment: "আলেপ্পির হাউসবোটের অভিজ্ঞতা এক কথায় অসাধারণ! হাউসবোটে স্পেশাল ফ্রেশ মাছ ভাজা এবং বাঙালিদের পছন্দের খাবারের ব্যবস্থা করেছিল। মুন্নারের চা বাগান আর কোভালামের সূর্যাস্ত দারুণ লেগেছে। ১০/১০ সার্ভিস!",
     date: "1 month ago"
   },
   {
@@ -249,7 +249,7 @@ export const REVIEWS: Review[] = [
     name: "Rajarshi & Piyali Das",
     location: "Howrah, West Bengal",
     rating: 5,
-    comment: "Got our customized Kerala quote in just 10 minutes. Pricing was completely transparent with zero hidden costs. Driver Prasad was polite and helpful. Highly recommended to all Bengali families!",
+    comment: "মাত্র ১০ মিনিটেই কাস্টমাইজড কোটেশন পেয়ে গিয়েছিলাম। কোনো হিডেন চার্জ ছিল না, একদম স্বচ্ছ দাম। ড্রাইভার প্রসাদ খুব ভদ্র ও হেল্পফুল ছিলেন। বাঙালি পরিবারদের জন্য কেরল ঘোরার সেরা ট্রাভেল পার্টনার!",
     date: "1 month ago"
   },
   {

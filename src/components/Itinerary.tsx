@@ -16,13 +16,13 @@ export const Itinerary: React.FC = () => {
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
           <span className="text-[#0B3996] font-bold text-xs uppercase tracking-widest bg-[#EBF2FF] px-3.5 py-1 rounded-full border border-[#0B3996]/20">
-            FLAGSHIP 6N / 7D PLAN
+            স্পেশাল ৬ রাত / ৭ দিনের ভ্রমণ পরিকল্পনা
           </span>
           <h2 className="text-2xl sm:text-4xl font-black text-gray-900 mt-2 tracking-tight">
-            YOUR 6 NIGHTS 7 DAYS TOUR ITINERARY 🌴
+            আপনার ৬ রাত ৭ দিনের সম্পূর্ণ কেরল ভ্রমণসূচি 🌴
           </h2>
           <p className="text-xs sm:text-base text-gray-600 mt-2">
-            Perfectly paced day-by-day travel plan covering mountains, wildlife, backwaters & beaches.
+            পাহাড়, চা-বাগান, অভয়ারণ্য, ব্যাকওয়াটার্স ও সমুদ্র সৈকত—প্রতিটি দিনের সুপরিকল্পিত রুট।
           </p>
         </div>
 

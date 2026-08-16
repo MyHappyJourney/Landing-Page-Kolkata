@@ -55,8 +55,8 @@ export const PackageModal: React.FC<PackageModalProps> = ({ pkg, onClose, onGetQ
           <div className="bg-amber-50 p-4 rounded-xl border border-amber-200 flex items-center justify-between">
             <div className="flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
-              <p className="text-xs sm:text-sm font-black text-amber-950 uppercase tracking-wide">
-                Special Price for Bengali Travellers
+              <p className="text-xs sm:text-sm font-black text-amber-950 tracking-wide">
+                বাঙালি পর্যটকদের জন্য বিশেষ ছাড়
               </p>
             </div>
             <span className="text-xs font-bold text-[#0B3996] bg-white px-3 py-1.5 rounded-lg border border-blue-200 shadow-2xs">
