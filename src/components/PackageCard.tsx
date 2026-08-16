@@ -1,6 +1,6 @@
 import React from 'react';
 import { PackageItem } from '../types';
-import { ArrowRight, Star, Clock, Zap } from 'lucide-react';
+import { ArrowRight, Star, Clock, Zap, Sparkles } from 'lucide-react';
 import { WHATSAPP_NUMBER } from '../data/tourData';
 import { WhatsAppIcon } from './WhatsAppIcon';
 
@@ -96,15 +96,10 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg, onViewDetails, on
             </span>
           </div>
 
-          <div className="flex items-center justify-between mb-3 py-0.5">
-            <div>
-              <p className="text-[10px] uppercase font-bold text-gray-400">Package Pricing</p>
-              <span className="font-black text-lg sm:text-xl text-[#0B3996]">
-                GET BEST QUOTE →
-              </span>
-            </div>
-            <span className="text-[10px] text-[#0B3996] font-extrabold bg-[#EBF2FF] px-2 py-1 rounded">
-              Best Rate
+          <div className="flex items-center justify-center gap-1.5 mb-3 py-2 px-3 bg-amber-50 rounded-xl border border-amber-200 text-center">
+            <Sparkles className="w-3.5 h-3.5 text-amber-600 shrink-0 animate-pulse" />
+            <span className="text-xs font-black text-amber-950 uppercase tracking-wide">
+              Special Price for Bengali Travellers
             </span>
           </div>
 
@@ -118,12 +113,12 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg, onViewDetails, on
               </button>
               <button
                 onClick={() => onGetQuote(pkg)}
-                className={`w-full py-2.5 px-2 text-white text-xs font-bold rounded-xl shadow-xs transition-colors flex items-center justify-center gap-1 cursor-pointer ${
+                className={`w-full py-2.5 px-1.5 text-white text-[11px] sm:text-xs font-bold rounded-xl shadow-xs transition-colors flex items-center justify-center gap-1 cursor-pointer text-center leading-tight ${
                   pkg.isPopular ? 'bg-[#FF4B00] hover:bg-[#e04200]' : 'bg-[#0B3996] hover:bg-[#082b75]'
                 }`}
               >
-                <span>GET BEST QUOTE</span>
-                <ArrowRight className="w-3.5 h-3.5" />
+                <span>Get best quote in 10 mins</span>
+                <ArrowRight className="w-3.5 h-3.5 shrink-0" />
               </button>
             </div>
 
@@ -135,7 +130,7 @@ export const PackageCard: React.FC<PackageCardProps> = ({ pkg, onViewDetails, on
               id={`whatsapp-btn-${pkg.id}`}
             >
               <WhatsAppIcon className="w-4 h-4 fill-white" />
-              <span>WHATSAPP {pkg.durationBadge}</span>
+              <span>বাংলায় WhatsApp করুন</span>
             </a>
           </div>
         </div>

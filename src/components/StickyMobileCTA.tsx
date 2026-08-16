@@ -38,11 +38,11 @@ export const StickyMobileCTA: React.FC<StickyMobileCTAProps> = ({ onQuoteClick }
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-1 h-12 bg-[#25D366] active:bg-[#1fbd58] text-white font-bold text-xs rounded-xl flex flex-col items-center justify-center gap-0.5 active:scale-95 transition-all shadow-sm"
+        className="flex-1 h-12 bg-[#25D366] active:bg-[#1fbd58] text-white font-bold text-xs rounded-xl flex flex-col items-center justify-center gap-0.5 active:scale-95 transition-all shadow-sm px-1 text-center"
         id="sticky-whatsapp-btn"
       >
         <WhatsAppIcon className="w-4 h-4 fill-white" />
-        <span className="text-[10px] uppercase font-black tracking-tight">WHATSAPP</span>
+        <span className="text-[10px] font-bold leading-tight">বাংলায় WhatsApp করুন</span>
       </a>
 
     </div>

@@ -52,16 +52,14 @@ export const PackageModal: React.FC<PackageModalProps> = ({ pkg, onClose, onGetQ
         {/* Modal Body */}
         <div className="p-5 sm:p-6 overflow-y-auto space-y-5">
           {/* Price Box */}
-          <div className="bg-[#EBF2FF] p-4 rounded-xl border border-[#0B3996]/30 flex items-center justify-between">
-            <div>
-              <p className="text-xs font-bold text-[#0B3996] uppercase">Package Special Offer</p>
-              <div className="flex items-baseline gap-2 mt-0.5">
-                <span className="text-xl sm:text-2xl font-black text-[#0B3996]">
-                  GET BEST QUOTE →
-                </span>
-              </div>
+          <div className="bg-amber-50 p-4 rounded-xl border border-amber-200 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
+              <p className="text-xs sm:text-sm font-black text-amber-950 uppercase tracking-wide">
+                Special Price for Bengali Travellers
+              </p>
             </div>
-            <span className="text-xs font-semibold text-[#0B3996] bg-white px-3 py-1.5 rounded-lg border border-[#0B3996]/20 shadow-2xs">
+            <span className="text-xs font-bold text-[#0B3996] bg-white px-3 py-1.5 rounded-lg border border-blue-200 shadow-2xs">
               Customizable Itinerary
             </span>
           </div>
@@ -105,7 +103,7 @@ export const PackageModal: React.FC<PackageModalProps> = ({ pkg, onClose, onGetQ
             className="w-full py-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-extrabold rounded-xl text-center text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all"
           >
             <WhatsAppIcon className="w-5 h-5 fill-white" />
-            <span>WhatsApp Enquiry</span>
+            <span>বাংলায় WhatsApp করুন</span>
           </a>
 
           <button
@@ -115,7 +113,7 @@ export const PackageModal: React.FC<PackageModalProps> = ({ pkg, onClose, onGetQ
             }}
             className="w-full py-3 bg-[#FF4B00] hover:bg-[#e04200] text-white font-extrabold rounded-xl text-center text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md"
           >
-            <span>Get Best Quote</span>
+            <span>Get best quote in 10 mins</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

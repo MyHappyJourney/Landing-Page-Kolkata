@@ -230,35 +230,51 @@ export const WHY_BOOK_ITEMS = [
 export const REVIEWS: Review[] = [
   {
     id: "rev-1",
-    name: "Priya S.",
-    location: "Bangalore",
+    name: "Sourav & Debjani Banerjee",
+    location: "Salt Lake, Kolkata",
     rating: 5,
-    comment: "Excellent arrangement by My Happy Journey. Hotels and houseboat were amazing. Highly recommended!",
+    comment: "Booked our 6N/7D Kerala trip from Kolkata. MyHappyJourney handled everything seamlessly from flight timings to Cochin pickup. Dedicated AC cab was spotless and Bengali phone support made it stress-free for our elderly parents!",
     date: "2 weeks ago"
   },
   {
     id: "rev-2",
-    name: "Rahul M.",
-    location: "Chennai",
+    name: "Anirban Mukherjee",
+    location: "Ballygunge, Kolkata",
     rating: 5,
-    comment: "Very professional team and well planned itinerary. We had a memorable family trip.",
+    comment: "The Alleppey houseboat was unforgettable! They specially arranged delicious fresh fish fry & Bengali-friendly meals on board. Munnar tea gardens and Kovalam sunsets were breathtaking. 10/10 service!",
     date: "1 month ago"
   },
   {
     id: "rev-3",
-    name: "Sunil K.",
-    location: "Hyderabad",
+    name: "Rajarshi & Piyali Das",
+    location: "Howrah, West Bengal",
     rating: 5,
-    comment: "This was our 3rd trip with them. Always the best service and support. Thank you!",
+    comment: "Got our customized Kerala quote in just 10 minutes. Pricing was completely transparent with zero hidden costs. Driver Prasad was polite and helpful. Highly recommended to all Bengali families!",
     date: "1 month ago"
   },
   {
     id: "rev-4",
-    name: "Ananya Sharma",
-    location: "Mumbai",
+    name: "Dr. Subhashish Roy",
+    location: "New Town, Kolkata",
     rating: 5,
-    comment: "The Alleppey houseboat was clean, food was superb, and our driver Prasad was super polite. 10/10 service!",
+    comment: "Third time travelling with MyHappyJourney. Their 24x7 phone assistance and hotel selections in Munnar & Thekkady were top notch. Best Kerala tour planner for Kolkata travellers!",
     date: "2 months ago"
+  },
+  {
+    id: "rev-5",
+    name: "Swagata Sen",
+    location: "Siliguri, West Bengal",
+    rating: 5,
+    comment: "We had a memorable family tour from Siliguri. Private vehicle was always on time, resort rooms had stunning valley views, and food arrangements were excellent. Truly memorable trip!",
+    date: "2 months ago"
+  },
+  {
+    id: "rev-6",
+    name: "Indranil & Sharmila Ghosh",
+    location: "Durgapur, West Bengal",
+    rating: 5,
+    comment: "Outstanding arrangements from start to finish. Fresh fish meals on the backwaters houseboat, great sightseeing, and warm hospitality throughout. 5-star experience!",
+    date: "3 months ago"
   }
 ];
 

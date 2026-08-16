@@ -34,14 +34,14 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
             {/* Tagline Badge */}
             <div className="inline-flex items-center gap-2 bg-[#0B3996]/90 backdrop-blur-md text-white text-xs sm:text-sm font-extrabold px-3.5 py-1.5 rounded-full border border-blue-400/30 shadow-md">
               <Sparkles className="w-3.5 h-3.5 text-yellow-300 animate-pulse" />
-              <span>EXPLORE GOD'S OWN COUNTRY 🌴</span>
+              <span>Special Packages for Kolkata Travellers</span>
             </div>
 
             {/* Main Title */}
             <div>
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-white drop-shadow-md">
-                KERALA <br />
-                <span className="text-amber-400">TOUR PACKAGES</span>
+                KERALA TOUR PACKAGES <br />
+                <span className="text-amber-400">FROM কলকাতা</span>
               </h1>
             </div>
 
@@ -73,8 +73,8 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
               </div>
             </div>
 
-            {/* Desktop quick highlights */}
-            <div className="hidden sm:flex items-center gap-6 text-xs sm:text-sm text-gray-200 pt-2">
+            {/* Desktop & Tablet quick highlights */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-5 text-xs sm:text-sm text-gray-200 pt-2">
               <div className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-[#0B3996] fill-white" />
                 <span>Zero Hidden Fees</span>
@@ -86,6 +86,10 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
               <div className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-[#0B3996] fill-white" />
                 <span>Dedicated Driver</span>
+              </div>
+              <div className="flex items-center gap-1.5 bg-amber-400/20 text-amber-300 font-bold px-2.5 py-1 rounded-lg border border-amber-400/30">
+                <CheckCircle2 className="w-4 h-4 text-amber-400 fill-amber-900" />
+                <span>Fish & Bengali Food Available</span>
               </div>
             </div>
           </div>
@@ -144,7 +148,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
                   className="w-full h-12 sm:h-13 bg-[#FF4B00] hover:bg-[#e04200] text-white font-extrabold text-sm sm:text-base rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group cursor-pointer focus:outline-none"
                   id="hero-instant-quote-btn"
                 >
-                  <span>GET BEST QUOTE</span>
+                  <span>GET BEST QUOTE IN 10 MINS</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
 
@@ -156,7 +160,7 @@ export const Hero: React.FC<HeroProps> = ({ onQuoteClick }) => {
                   id="hero-whatsapp-btn"
                 >
                   <WhatsAppIcon className="w-5 h-5 fill-white" />
-                  <span>WHATSAPP US NOW</span>
+                  <span>বাংলায় WhatsApp করুন</span>
                 </a>
               </div>
 

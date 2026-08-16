@@ -78,7 +78,7 @@ export const Footer: React.FC<FooterProps> = ({ onQuoteClick }) => {
               </a>
               <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:text-white">
                 <WhatsAppIcon className="w-4 h-4 text-[#25D366] shrink-0 fill-current" />
-                <span>WhatsApp Instant Support</span>
+                <span>বাংলায় WhatsApp করুন</span>
               </a>
               <a href={`mailto:${ENQUIRY_EMAIL}`} className="flex items-center gap-2.5 hover:text-white">
                 <Mail className="w-4 h-4 text-[#0B3996] shrink-0" />

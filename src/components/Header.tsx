@@ -61,6 +61,13 @@ export const Header: React.FC<HeaderProps> = ({ onQuoteClick, onPackageSelect })
             </div>
             <span className="text-[10px] font-semibold text-gray-600 ml-0.5">Google Rating</span>
           </div>
+
+          <div className="h-8 w-[1px] bg-gray-200"></div>
+
+          <div className="flex items-center gap-1.5 bg-emerald-50 px-2.5 py-1.5 rounded-lg border border-emerald-200/80 text-emerald-800">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span className="font-extrabold text-xs">Bengali Support Available</span>
+          </div>
         </div>
 
         {/* Actions (Phone + Menu) */}
