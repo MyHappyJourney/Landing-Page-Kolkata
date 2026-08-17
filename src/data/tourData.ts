@@ -281,43 +281,43 @@ export const REVIEWS: Review[] = [
 export const FAQS: FAQItem[] = [
   {
     id: "faq-1",
-    question: "What is included in this package?",
-    answer: "Our standard Kerala tour package includes handpicked hotel/resort accommodations, daily breakfast, a private AC cab with dedicated driver for all sightseeing & transfers, a private houseboat stay in Alleppey with all meals (lunch, dinner, breakfast), toll taxes, driver allowance, and 24x7 local travel support."
+    question: "Is Bengali tele-support and travel assistance available?",
+    answer: "Yes, absolutely! We have dedicated Bengali-speaking travel coordinators who will guide you from initial itinerary planning all the way through your trip via phone and WhatsApp, ensuring a smooth, language-barrier-free holiday for your family."
   },
   {
     id: "faq-2",
-    question: "Is this package customizable?",
-    answer: "Yes, 100%! All our packages can be fully customized according to your arrival point (Cochin or Trivandrum), travel dates, budget preference, hotel categories (3-Star, 4-Star, or Luxury Resorts), and specific places you wish to visit."
+    question: "Can Bengali meals and fresh fish fry be arranged during the tour and houseboat stay?",
+    answer: "Yes! On our Alleppey backwater houseboats, our chef specially prepares delicious fresh Kerala fish fry (Karimeen/Seer fish), prawns, hot rice, dal, and authentic dishes tailored for Bengali tourists. We also recommend excellent dining stops across Munnar, Thekkady, and Kovalam."
   },
   {
     id: "faq-3",
-    question: "What kind of vehicle will be provided?",
-    answer: "We provide dedicated, clean, private AC vehicles based on your group size: Sedan (Swift Dzire/Etios) for 2-3 guests, SUV (Innova/Ertiga) for 4-6 guests, and Tempo Traveller for groups of 7 or more. The vehicle remains exclusively with your family throughout the tour."
+    question: "How do we coordinate flights or trains from Kolkata (CCU / Howrah)?",
+    answer: "We provide complete guidance for direct and connecting flights from Netaji Subhash Chandra Bose International Airport (CCU) to Cochin (COK) or Trivandrum (TRV). For guests arriving via trains at Ernakulam or Trivandrum railway stations, our dedicated private AC cab will be waiting on platform arrival."
   },
   {
     id: "faq-4",
-    question: "Are flights included?",
-    answer: "Airfare / train tickets are generally not included in the standard base package price, but our travel experts can easily assist you in booking flight or train tickets from your city at competitive prices upon request."
+    question: "Is airport/station pickup and drop included in the package?",
+    answer: "Yes, 100% private, door-to-door transfers are included. Our verified chauffeur will receive you with a personalized name-board at Cochin Airport (COK) or railway station, stay with you throughout the sightseeing tour, and drop you off safely at Trivandrum or Cochin airport."
   },
   {
     id: "faq-5",
-    question: "What is the best time to visit Kerala?",
-    answer: "Kerala is a year-round destination! September to March offers pleasant weather ideal for hill stations, wildlife, and beaches. Monsoons (June to August) are world-famous for lush greenery and Ayurvedic wellness treatments."
+    question: "Is this package suitable for families with senior citizens and kids from Kolkata?",
+    answer: "Yes, our Kerala itineraries are thoughtfully paced with minimal rush, comfortable travel intervals, and stays at elevator-equipped 3-Star, 4-Star, or Luxury resorts. Your dedicated private AC vehicle ensures total comfort and flexible stops for senior parents and children."
   },
   {
     id: "faq-6",
-    question: "Is the houseboat stay private?",
-    answer: "Yes, absolutely! The houseboat provided in your package is 100% private with air-conditioned bedrooms, attached bathrooms, a private sitting deck, and a dedicated crew (captain, chef, and guide) serving fresh authentic Kerala cuisine."
+    question: "Will the Alleppey backwaters houseboat be 100% private for our group?",
+    answer: "Yes, we only provide 100% private houseboats for your family or group. Each houseboat features private air-conditioned bedrooms, attached modern bathrooms, a dedicated dining deck, and a private crew (captain, engine driver, and personal chef)."
   },
   {
     id: "faq-7",
-    question: "What is your cancellation policy?",
-    answer: "We offer guest-friendly, flexible cancellation policies. Depending on how far in advance you cancel prior to your travel date, partial or full refunds are processed promptly. Full details are provided in your booking voucher."
+    question: "How early should we book for Durga Puja, Diwali, or winter holidays?",
+    answer: "Durga Puja and winter (October to January) are peak travel seasons for Kolkata travellers visiting Kerala. We recommend requesting your free quote and confirming with a minimal token advance 4 to 8 weeks in advance to secure top-tier resort valley views and premium houseboats."
   },
   {
     id: "faq-8",
-    question: "Do you provide airport pickup and drop?",
-    answer: "Yes, seamless door-to-door airport/railway station pickup and drop are included. Usually pickup is from Cochin International Airport (COK) and drop at Trivandrum International Airport (TRV), or vice versa according to your route."
+    question: "What is included in the package and are there any hidden charges?",
+    answer: "Our package pricing is completely transparent with zero hidden fees. It includes handpicked hotel/resort accommodations, daily breakfast, a private houseboat cruise with all meals (lunch, dinner, breakfast), an exclusive private AC vehicle for all transfers and sightseeing, toll taxes, parking fees, and driver allowances."
   }
 ];
 
